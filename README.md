@@ -8,7 +8,7 @@ AD/AE for submission to DRBSD22: Analyzing the Impact of Lossy Data Reduction on
   - Version: 4686381a9b1b1ca5dc9eeb75081bd8a601062d40
 - ParaView
   - Link: https://www.paraview.org/download/  
-  - Version: 5.10.0 
+  - Version: ParaView-5.10.0-osmesa-MPI-Linux-Python3.9-x86_64
 - Python 3.8
   - Pytorch 1.12.1
   - Scikit-image 0.19.3
