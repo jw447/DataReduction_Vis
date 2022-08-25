@@ -3,7 +3,7 @@
 AD/AE for submission to DRBSD22: Analyzing the Impact of Lossy Data Reduction on Volume Rendering of Cosmology Data.
 
 ### Requirements 
-- ForeSight
+- Foresight
   - Link: https://github.com/lanl/VizAly-Foresight/tree/vizstudy-jwang
   - Version: 4686381a9b1b1ca5dc9eeb75081bd8a601062d40
 - ParaView
@@ -24,7 +24,7 @@ Required modules can be installed via ` pip3 install -r requirements.txt `
 ### Dataset
 The dataset used in this work is a timestep from the Nyx cosmological application. The dataset can be obtained [here](https://portal.nersc.gov/project/nyx/highz/512/NVB_C009_l10n512_S12345T692_z54.hdf5).
 
-### ForeSight configurations files for compression experiments
+### Foresight configurations files for compression experiments
 
 In compression experiments, we specify the configurations, especially the absolute error bound, for each compressor and each field into a JSON file. Those JSON files are contained in **foresight_input**. For example, `nyx_img_compression_sz_abs_baryon_density.json` indicates the configuration JSON file for SZ to compress *Baryon_density*.
 
