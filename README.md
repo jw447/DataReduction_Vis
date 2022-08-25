@@ -29,7 +29,7 @@ The dataset used in this work is a timestep from the Nyx cosmological applicatio
 In compression experiments, we specify the configurations, especially the absolute error bound, for each compressor and each field into a JSON file. Those JSON files are contained in **foresight_input**. For example, `nyx_img_compression_sz_abs_baryon_density.json` indicates the configuration JSON file for SZ to compress *Baryon_density*.
 
 ```bash
-<path to foresight>/build/CBench nyx_img_compression_sz_abs_baryon_density.json
+mpirun -np X <path to foresight>/build/CBench nyx_img_compression_sz_abs_baryon_density.json
 ```
 
 ### ParaView scripts for volume rendering
