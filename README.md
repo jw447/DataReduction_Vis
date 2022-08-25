@@ -3,26 +3,33 @@
 AD/AE for submission to DRBSD22: Analyzing the Impact of Lossy Data Reduction on Volume Rendering of Cosmology Data.
 
 ### Requirements 
-
+- ForeSight
+  - Link: https://github.com/lanl/VizAly-Foresight/tree/vizstudy-jwang
+  - Version: 4686381a9b1b1ca5dc9eeb75081bd8a601062d40
+- ParaView
+  - Link: https://www.paraview.org/download/  
+  - Version: 5.10.0 
 - Python 3.8
-- Pytorch 1.12.1
-- Scikit-image 0.19.3
-- Opencv-python 4.6.0.66
-- Opencv-contrib-python 4.6.0.66
-- Piq 0.7.0
-- Lmdb 1.3.0
-- Imageio 2.9.0
-- Pillow 7.1.2
+  - Pytorch 1.12.1
+  - Scikit-image 0.19.3
+  - Opencv-python 4.6.0.66
+  - Opencv-contrib-python 4.6.0.66
+  - Piq 0.7.0
+  - Lmdb 1.3.0
+  - Imageio 2.9.0
+  - Pillow 7.1.2
 
 Required modules can be installed via ` pip3 install -r requirements.txt `
 
+### Dataset
+The dataset used in this work is a timestep from the Nyx cosmological application. The dataset can be obtained [here](https://portal.nersc.gov/project/nyx/highz/512/NVB_C009_l10n512_S12345T692_z54.hdf5).
 
 ### ForeSight configurations files for compression experiments
 
 In compression experiments, we specify the configurations, especially the absolute error bound, for each compressor and each field into a JSON file. Those JSON files are contained in **foresight_input**. For example, `nyx_img_compression_sz_abs_baryon_density.json` indicates the configuration JSON file for SZ to compress *Baryon_density*.
 
 ```bash
-./CBench -i nyx_img_compression_sz_abs_baryon_density.json
+<path to foresight>/build/CBench nyx_img_compression_sz_abs_baryon_density.json
 ```
 
 ### ParaView scripts for volume rendering
@@ -30,7 +37,7 @@ In compression experiments, we specify the configurations, especially the absolu
 The scripts to generate volume rendering visualization using ParaView are listed under **visualization_scripts**.
 
 ```bash
-PYTHON ... img_baryon_density_ReOr.py
+<path to paraview>/ParaView-5.10.0-osmesa-MPI-Linux-Python3.9-x86_64/bin/pvpython ... img_baryon_density_ReOr.py
 ```
 
 ### Image difference computation
