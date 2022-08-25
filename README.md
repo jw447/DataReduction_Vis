@@ -37,8 +37,9 @@ mpirun -np X <path to foresight>/build/CBench nyx_img_compression_sz_abs_baryon_
 The scripts to generate volume rendering visualization using ParaView are listed under **visualization_scripts**.
 
 ```bash
-<path to paraview>/ParaView-5.10.0-osmesa-MPI-Linux-Python3.9-x86_64/bin/pvpython ... img_baryon_density_ReOr.py
+<path to paraview>/ParaView-5.10.0-osmesa-MPI-Linux-Python3.9-x86_64/bin/pvpython <path to script>/img_baryon_density_ReOr.py <input file.h5> <registration name> <output.png>
 ```
+The `input file.h5` is the name of the dataset. The `registration name` is the name of dataset without file extension. The `output.png` is the name of output image.
 
 ### Image difference computation
 
