@@ -19,7 +19,7 @@ AD/AE for submission to DRBSD22: Analyzing the Impact of Lossy Data Reduction on
   - Imageio 2.9.0
   - Pillow 7.1.2
 
-Required modules can be installed via ` pip3 install -r requirements.txt `
+Required Python modules can be installed via ` pip3 install -r requirements.txt `
 
 ### Dataset
 The dataset used in this work is a timestep from the Nyx cosmological application. The dataset can be obtained [here](https://portal.nersc.gov/project/nyx/highz/512/NVB_C009_l10n512_S12345T692_z54.hdf5).
