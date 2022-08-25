@@ -32,5 +32,5 @@ python getImgDiff.py
 
 In order to computet he IQA metrics used in this work (listed below), the scripts 
 
-|:------:|:-------:|:----:|:---:|:------:|:-------:|:---:|:----:|:-------:|:-----:|:------:|:-----:|:------:|:------:|
-|  SSIM  | MS-SSIM | FSIM | DSS | SR-SIM | HaarPSI | VSI | MDSI | MS-GMSD | DISTS | PieAPP | LPIPS | L2PIPS | DeepQA |
+| SSIM | MS-SSIM | FSIM | DSS | SR-SIM | HaarPSI | VSI | MDSI | MS-GMSD | DISTS | PieAPP | LPIPS | **L2PIPS** | **DeepQA** |
+|:----:|:-------:|:----:|:---:|:------:|:-------:|:---:|:----:|:-------:|:-----:|:------:|:-----:|:----------:|:----------:|
