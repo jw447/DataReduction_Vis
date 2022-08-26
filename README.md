@@ -2,6 +2,15 @@
 
 AD/AE for submission to DRBSD22: Analyzing the Impact of Lossy Data Reduction on Volume Rendering of Cosmology Data.
 
+**Reproductioin initiative**
+
+[![DOI](https://zenodo.org/badge/528606976.svg)](https://zenodo.org/badge/latestdoi/528606976) [![DOI](https://zenodo.org/badge/528893694.svg)](https://zenodo.org/badge/latestdoi/528893694)
+
+
+
+http://ieee-dataport.org/documents/nyx-cosmological-simulation-data
+
+
 ### Requirements 
 - Foresight
   - Link: https://github.com/lanl/VizAly-Foresight/tree/vizstudy-jwang
