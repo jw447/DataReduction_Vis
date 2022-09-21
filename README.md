@@ -2,6 +2,10 @@
 
 AD/AE for submission to DRBSD22: Analyzing the Impact of Lossy Data Reduction on Volume Rendering of Cosmology Data.
 
+- Updated on 09/21/2022
+
+Please refer to https://github.com/lanl/VizAly-Vis_IO/tree/imgCompAnalysis for most recent update.
+
 **Reproductioin initiative**
 
 [![DOI](https://zenodo.org/badge/528606976.svg)](https://zenodo.org/badge/latestdoi/528606976) [![DOI](https://zenodo.org/badge/528893694.svg)](https://zenodo.org/badge/latestdoi/528893694)
